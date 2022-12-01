@@ -33,5 +33,4 @@ func main() {
 	fmt.Printf("Result for part 1: %d\n", p1)
 	p2 := part2.Part2(inputDay1)
 	fmt.Printf("Result for part 2: %d\n", p2)
-
 }

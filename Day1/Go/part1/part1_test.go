@@ -51,3 +51,25 @@ func TestPart1(t *testing.T) {
 		})
 	}
 }
+
+func BenchmarkPart1(b *testing.B) {
+	file, err := os.Open("../input.txt")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	var testInput []string
+
+	scanner := bufio.NewScanner(file)
+	scanner.Split(bufio.ScanLines)
+	for scanner.Scan() {
+		l := scanner.Text()
+		testInput = append(testInput, l)
+	}
+	b.ResetTimer()
+
+	for i := 0; i < b.N; i++ {
+		Part1(testInput)
+	}
+}
