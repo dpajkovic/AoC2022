@@ -42,6 +42,7 @@ Import-Module FormatMarkdownTable
 
 $md = $sortedList | Format-MarkdownTableTableStyle -ShowMarkdown -HideStandardOutput -Property Order, Name, Stars, "Local Score" -DoNotCopyToClipboard
 
+$md = $md -replace '\|(\d+)\|dpajkovic\|(\d+)\|(\d+)\|', '|_$1_|_dpajkovic_|_$2_|_$3_|'
 $md = $md.Replace("|:--|:--|:--|:--|", "|--:|:--|--:|--:|")
 $day = (Get-Date).Day
 $myStars = $leaderBoard.members.$env:SESSION_MEMBER_ID.stars

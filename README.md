@@ -13,10 +13,10 @@
 |2|andrewpickett|8|433|
 |3|Jacob Logsdon|8|418|
 |4|Paul Bender|8|403|
-|5|dpajkovic|8|380|
+|_5_|_dpajkovic_|_8_|_380_|
 |6|Dora Sun|8|377|
-|7|vasavi katakam|8|375|
-|8|Peter Kim|8|375|
+|7|Peter Kim|8|375|
+|8|vasavi katakam|8|375|
 |9|Ben Ferenchak|8|374|
 |10|David Hanley|8|372|
 
