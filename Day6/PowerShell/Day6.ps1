@@ -3,9 +3,6 @@
 #    (See accompanying file LICENSE or copy at
 #    https://www.boost.org/LICENSE_1_0.txt)
 
-# $inputDay4 = Get-Content ./input.txt -Raw
-# $inputDay4 = Get-Content ./testinput.txt -Raw
-
 $inputDay6 = Get-Content ./input.txt
 
 for ($i = 3; $i -lt $inputDay6.Length; $i++)
@@ -15,7 +12,8 @@ for ($i = 3; $i -lt $inputDay6.Length; $i++)
         break
     }
 }
-$i + 1
+
+"Result for part 1: $($i+1)"
 
 for ($i = 13; $i -lt $inputDay6.Length; $i++)
 {
@@ -24,4 +22,5 @@ for ($i = 13; $i -lt $inputDay6.Length; $i++)
         break
     }
 }
-$i + 1
+
+"Result for part 2: $($i+1)"
