@@ -1,7 +1,7 @@
 # Advent of Code 2022
 
-![day](https://img.shields.io/badge/day%20📅-12-blue)
-![stars](https://img.shields.io/badge/stars%20⭐-24x-yellow)
+![day](https://img.shields.io/badge/day%20📅-21-blue)
+![stars](https://img.shields.io/badge/stars%20⭐-36x-yellow)
 
 [Advent of Code](https://adventofcode.com)
 
@@ -9,14 +9,14 @@
 
 |Order|Name|Stars|Local Score|
 |--:|:--|--:|--:|
-|1|andrewpickett|24|1448|
-|2|dratcliff|24|1433|
-|3||24|1391|
-|4|gschaefer3|24|1381|
-|5|Jacob Logsdon|24|1305|
-|_6_|_dpajkovic_|_24_|_1276_|
-|7|Paul Bender|21|1143|
-|8|cmbeam|24|1131|
-|9|Krzysztof Malinowski|24|1118|
-|10|evgeniya-sotirova|24|1106|
+|1|andrewpickett|42|2491|
+|2|gschaefer3|42|2439|
+|3|dratcliff|40|2334|
+|_4_|_dpajkovic_|_36_|_1930_|
+|5|Igor Dvoeglazov|36|1631|
+|6|cmbeam|32|1573|
+|7|evgeniya-sotirova|32|1561|
+|8|David Hanley|30|1540|
+|9|JKerwood|29|1378|
+|10|Mihajlo|29|1337|
 
